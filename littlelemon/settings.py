@@ -134,4 +134,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-DJOSER = {"USER_ID_FIELD":"username"} 
+DJOSER = {
+    "USER_ID_FIELD":"username", 
+    # 'USER_CREATE_URL': 'registration/',
+} 
